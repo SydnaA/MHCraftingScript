@@ -1,0 +1,12 @@
+{
+    "name": "MH Crafting",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Crafting",
+    "content_scripts": [
+        {
+            "matches": ["https://www.mousehuntgame.com/inventory.php?tab=2", "http://www.mousehuntgame.com/inventory.php?tab=2"],
+            "js": ["content.js"]
+        }
+    ]
+}
